@@ -31,11 +31,11 @@ public class Health {
         }else if(bmiIndex >= 25 && bmiIndex < 30){
             bmiCat = "Overweight";
         }else if(bmiIndex >= 30 && bmiIndex < 35){
-            bmiCat = "Obesse Class 1";
+            bmiCat = "Obese Class 1";
         }else if(bmiIndex >= 35 && bmiIndex < 40){
-            bmiCat = "Obesse Class 2";
+            bmiCat = "Obese Class 2";
         }else if(bmiIndex > 40){
-            bmiCat = "Obesse Class 3";
+            bmiCat = "Obese Class 3";
         }
         return bmiCat;
     }
